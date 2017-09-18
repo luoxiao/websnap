@@ -10,7 +10,13 @@
 
     <!--Description-->
     
-        <meta name="description" content="">
+        <meta name="description" content="new APlayer({
+				element: document.getElementById(&#34;aplayer0&#34;),
+				narrow: false,
+				autoplay: false,
+				showlrc: 0,
+				music: {
+					title: &#34;Caff">
     
 
     <!--Author-->
@@ -172,7 +178,22 @@
 
             <!-- Post Main Content -->
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <script src="/websnap/assets/js/APlayer.min.js"> </script>
+                <script src="/websnap/assets/js/APlayer.min.js"> </script><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
+		<script>
+			new APlayer({
+				element: document.getElementById("aplayer0"),
+				narrow: false,
+				autoplay: false,
+				showlrc: 0,
+				music: {
+					title: "Caffeine",
+					author: "Jeff Williams",
+					url: "player/flower.mp4",
+					pic: "",
+				}
+			});
+		</script>
+
 
                 
             </div>
