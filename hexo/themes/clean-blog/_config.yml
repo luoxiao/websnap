@@ -2,15 +2,12 @@
 menu:
   主页: /
   目录: /archives
-  标签: /tags
-  分类: /categories
-  联系方式: /phone
-  Github:
-    url: https://github.com/klugjo/hexo-theme-clean-blog
-    icon: github
+  感谢: /thank
+  联系方式: /contact
+
 
 # Title on top left of menu. Leave empty to use main blog title
-menu_title: Configurable Title
+menu_title: 网页全截图(WebShot)
 
 # URL of the Home page image
 index_cover: http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg
